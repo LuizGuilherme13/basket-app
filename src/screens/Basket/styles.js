@@ -12,4 +12,9 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 16,
         paddingVertical: 8
     }, 
+    title:{ 
+        paddingVertical: 8,
+        fontSize: 14,
+        alignSelf: 'center',   
+    },
 })

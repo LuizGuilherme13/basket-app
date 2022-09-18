@@ -3,7 +3,7 @@ import { View } from "react-native";
 
 export function Separator({children}){
     return(
-        <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 20,}}>
+        <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 20, paddingHorizontal: 16}}>
             <View style={{flex: 1, height: 1, backgroundColor: 'black'}} />
             <View style={{flex: 1}}>
                 {children}
